@@ -3,6 +3,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo_app_hive_db/homePage.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   //initialize hive
   await Hive.initFlutter();
 
